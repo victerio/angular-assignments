@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app=LunchCheck>
+<head>
+    <meta charset="UTF-8">
+    <title>LunchCheck</title>
+    <script src=angular.min.js></script>
+    <script src="app.js"></script>
+    <div ng-controller="LunchCheckController">
+        <input type="text" size="30" ng-model="dishes" placeholder="Enter comma-separated dishes"/>
+        <button type="button" ng-click="Mess()">Check If Too Much</button>
+        {{mess}}
+    </div>
+</head>
+<body>
+
+</body>
+</html>
